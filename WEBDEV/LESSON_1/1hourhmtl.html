@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>1 hour of html</title> 
+</head>
+    <body>
+        <h1>Min title</h1>
+        <hr>
+        <h1>i like taco</h1>
+        <h2>i like taco</h2>
+        <h3>i like taco</h3>
+        <h4>i like taco</h4>
+        <h5>i like taco</h5>
+        <h6>i like taco</h6>
+        
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veritatis qui excepturi reprehenderit nesciunt soluta blanditiis temporibus eveniet, neque eligendi at a, ipsa modi? Consectetur impedit rerum eos neque magni.</p>
+
+        <br>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit quae illum aut fuga accusamus, ab ut, laborum autem facilis optio aliquam eaque nostrum recusandae inventore quis voluptatibus. Id, expedita veniam.</p>
+
+        <!--Min kommentar -->
+
+
+        <a href="https://www.youtube.com/watch?v=B08FbmwIjBU" target="_self">Youtube</a>
+
+        
+        <a href="mailto:yousef200302@gmail.com" target="_self">Kontakt meg</a>
+
+        <a href="google.com">
+            <img src="Shrek.png" height="300"  alt="Shrek pictrue" title="Shrek is good">
+        </a>
+        
+        <p>This is <b>cool</b> text</p>
+        <p>This is <i>cool</i> text</p>
+        <p>This is <big>cool</big> text</p>
+        <p>This is <small>cool</small> text</p>
+        <p>This is <sub>cool</sub> text</p>
+        <p>This is <sup>cool</sup> text</p>
+        <p>This is <ins>cool</ins> text</p>
+        <p>This is <del>cool</del> text</p>
+        <p>This is <mark>cool</mark> text</p>
+
+
+        <h4>unordered list</h4>
+        <ul>
+            <li>cola</li>
+            <li>fanta</li>
+            <li>sprite</li>
+        </ul>
+
+        <h4>ordered list</h4>
+        <ol>
+            <li>oppgave 1</li>
+            <li>oppgave 2</li>
+            <li>oppgave 3</li>
+        </ol>
+
+        <h4>Descripstion list</h4>
+        <dl>
+            <dt>wiki</dt>
+            <dd>World wide web</dd>
+        </dl>
+
+
+
+        <h4>unordered list</h4>
+        <ul>
+            <li>cola</li>
+            <li>fanta</li>
+            <li>sprite</li>
+            <ul>
+                <li>lime</li>
+                <li>prime</li>
+                <li>slime</li>
+            </ul>
+        </ul>
+
+
+
+        <h3>Store hours</h3>
+
+        <table bgcolor="black" width="500">
+            <tr bgcolor="grey">
+                <th width="100">Mandag</th>
+                <th width="100">tirsdag</th>
+                <th width="100">onsdag</th>
+                <th width="100">torsdag</th>
+                <th width="100">fredag</th>
+            </tr>
+
+            <tr bgcolor="lightgrey" align="center">
+                <td>close</td>
+                <td>open</td>
+                <td>close</td>
+                <td>open</td>
+                <td>close</td>
+            </tr>
+        </table>
+
+        <div style="background-color: antiquewhite;">
+            <p>Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Illum, ex delectus nostrum odit
+                cupiditate optio numquam? Enim dolore reiciendis iure, architecto i
+                nventore rerum non iste tempora explicabo at libero quia! 
+            </p>
+        </div>
+
+
+        <!--<iframe style="border:0" src="ads.html" width="750" height="100">-->
+
+
+         <a href="https://www.google.com">   
+            <button style="background-color: rgb(3, 3, 3); color: azure; border-radius: 5px;">click me</button>
+        </a>
+
+
+        
+        <button onclick="dosomething()"style="background-color: rgb(3, 3, 3); color: azure; border-radius: 5px;">click me2</button>
+        
+        <p id="test"> hello</p>
+
+        <script>
+            function dosomething(){
+                document.getElementById("test").innerHTML="Ha det";
+            }
+        </script>
+
+
+        <form action="action_page.php" method="POST">
+
+            <div>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="first name" required>
+        </div>
+        <br>
+        <div>
+            <label for="lname">last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="last name" required>
+        </div>
+
+
+        <br>
+        <div>
+            <label for="lname">password:</label>
+            <input type="password" id="lname" name="lname" placeholder="password" required>
+        </div>
+
+        <br>
+        <div>
+            <input type="reset">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+
+        </form>
+
+
+
+    </body>
+</html>

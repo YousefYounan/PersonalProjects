@@ -1,0 +1,33 @@
+
+    body{
+        background-color: rgb(0, 255, 38);
+    }
+    h1{
+        color:rgb(255, 0, 0);
+        background-color: blueviolet;
+        font-family: "consolas", sans-serif;
+        font-style:italic;
+        font-weight: bold;
+        text-decoration: dotted underline;
+        
+    }
+    p{
+        color:rgb(110, 81, 45);
+        background-color: rgb(0, 255, 213);
+    }
+    #p1{
+        color:tomato;
+    }
+    .odd{
+        color:red;
+    }
+    .even{
+        color:blue;
+    }
+    #p2{
+        border-style: outset;
+        border-radius: 10px;
+        border-width: 5px;
+        border-color: gold;
+        
+    }
